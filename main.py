@@ -38,6 +38,12 @@ def main():
         driver.find_element_by_class_name('watchCard').click()
         while True:
             try:
+                # if we are on the same vid for 5 mins refresh
+                curr = driver.current_url
+                sleep(300)
+                if curr == driver.current_url:
+                    driver.refresh()
+
                 # if any of these are true then we are done
                 driver.find_element_by_xpath("//*[contains(text(), 'we are sorry')]")
                 return
