@@ -18,6 +18,8 @@ def main():
     #while "Login" in driver.title:
     #    sleep(2)
     
+
+    ## We must get to a non ssl page on this domain. ps fuck selenium
     driver.get('http://www.swagbucks.com/earn-money-online')
     driver.delete_all_cookies()
 
@@ -30,8 +32,7 @@ def main():
     driver.add_cookie({'name' : 'sb5', 'value' : '1', 'path' : '/', 'domain' : '.swagbucks.com'})
     driver.add_cookie({'name' : 'G_ENABLED_IDPS', 'value' : 'google', 'path' : '/', 'domain' : '.www.swagbucks.com'})
     driver.get('http://www.swagbucks.com/')
-    while True:
-        sleep(2)
+
     def playVid():
         driver.get('http://www.swagbucks.com/watch/playlists/111/editors-pick')
         driver.find_element_by_class_name('watchCard').click()
