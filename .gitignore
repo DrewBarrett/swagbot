@@ -99,3 +99,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+.vscode/
+
+# lets not put our cookies on github
+config.json
