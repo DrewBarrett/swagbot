@@ -18,7 +18,7 @@ def main():
     #while "Login" in driver.title:
     #    sleep(2)
     
-    driver.get('http://www.google.com/')
+    driver.get('http://www.swagbucks.com/earn-money-online')
     driver.delete_all_cookies()
 
     ## The following are all required to avoid a redirect loop
