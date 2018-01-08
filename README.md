@@ -16,9 +16,11 @@ Copy your login cookies (In chrome go to developer tools/application and click o
 
 ### Install dependencies
 run
-    virtualenv python3 env
-    source env/bin/activate (or on windows env/Scripts/activate.bat)
-    pip install -r requirements.txt
+```
+virtualenv python3 env
+source env/bin/activate (or on windows env/Scripts/activate.bat)
+pip install -r requirements.txt
+```
 
 ### Run
     python3 main.py
