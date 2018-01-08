@@ -17,5 +17,7 @@ run
     source env/bin/activate (or on windows env/Scripts/activate.bat)
     pip install -r requirements.txt
 
+If you need an arm version of chromedriver check out https://launchpad.net/ubuntu/trusty/armhf/chromium-chromedriver
+
 ### Run
     python3 main.py
