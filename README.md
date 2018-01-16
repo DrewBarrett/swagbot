@@ -1,4 +1,6 @@
 # swagbot
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDrewBarrett%2Fswagbot.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FDrewBarrett%2Fswagbot?ref=badge_shield)
+
 Launches a headless web browser to watch videos on swagbucks
 
 ## Usage
@@ -24,3 +26,7 @@ pip install -r requirements.txt
 
 ### Run
     python3 main.py
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDrewBarrett%2Fswagbot.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FDrewBarrett%2Fswagbot?ref=badge_large)
